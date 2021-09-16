@@ -1,3 +1,6 @@
+- defaults:
+    link:
+      relink: true
 - clean: ['~']
 
 - link:
@@ -11,7 +14,7 @@
     ~/.config/i3:
         path: config/i3/
         create: true
-    ~/Imágenes/wallpapers:
+    ~/wallpapers:
         path: wallpapers
         create: yes
 
