@@ -14,9 +14,8 @@
     ~/.config/i3:
         path: config/i3/
         create: true
-    ~/wallpapers:
+    ~/Imágenes/wallpapers:
         path: wallpapers
-        create: yes
 
 - clean: ['~']
 
