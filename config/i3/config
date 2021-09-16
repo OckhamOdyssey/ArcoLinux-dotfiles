@@ -134,25 +134,8 @@ bindsym $mod+Shift+0 move container to workspace 10; workspace 10
 #################                          3 menu's in arcolinux                                     #################
 #####################################################################################################################
 
-# start dmenu
+# start rofi
 bindsym $mod+m exec --no-startup-id rofi -show drun -show-icons -font "Noto Sans 13"
-
-# start xfce4-appfinder
-bindsym mod1+F2 exec --no-startup-id xfce4-appfinder --collapsed
-
-# start xfce-appfinder
-bindsym mod1+F3 exec --no-startup-id xfce4-appfinder
-
-# start xlunch app launcher
-#bindsym mod1+F5 exec --no-startup-id xlunch --config ~/.config/xlunch/default.conf --input ~/.config/xlunch/entries.dsv
-
-# start rofi full
-bindsym $mod+F11 exec --no-startup-id rofi -show drun -fullscreen -font "Noto Sans 13"
-
-# start rofi small
-bindsym $mod+F12 exec --no-startup-id rofi -show drun -font "Noto Sans 13"
-
-
 
 #####################################################################################################################
 #################                          how to exit, logoff, suspend, ...                        #################
@@ -365,7 +348,7 @@ font pango:Noto Mono Regular 13
 # you can find the class with the program xprop
 
 # Workspace 1 browser related
-#assign [class="Firefox|Vivaldi-stable|Vivaldi-snapshot|Opera"]                      → 1
+assign [class="Firefox|Vivaldi-stable|Vivaldi-snapshot|Opera"]                      → 1
 #assign [class="Chromium|Google-chrome"]                                             → 1
 
 # Workspace 2 text editor related
@@ -416,8 +399,8 @@ exec --no-startup-id dex $HOME/.config/autostart/arcolinux-welcome-app.desktop
 exec_always --no-startup-id autotiling
 
 #browser
-#exec --no-startup-id vivaldi-stable
-for_window [class="Vivaldi-stable"] focus
+#exec --no-startup-id firefox
+#for_window [class="Vivaldi-stable"] focus
 
 #text-editor
 #exec --no-startup-id geany

@@ -16,6 +16,9 @@
         create: true
     ~/Imágenes/wallpapers:
         path: wallpapers
+    ~/.config/polybar:
+        path: config/polybar
+        create: true
 
 - clean: ['~']
 

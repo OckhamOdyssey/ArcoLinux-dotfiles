@@ -38,7 +38,7 @@ conky.config = {
 	gap_y = 0,									-- pixels between bottom or left border
 	minimum_height = 200,						-- minimum height of window
 	minimum_width = 230,						-- minimum height of window
-	maximum_width = 230,						-- maximum height of window
+	maximum_width = 3000,						-- maximum height of window
 
 	--Graphical
 
@@ -63,7 +63,7 @@ conky.config = {
 
 	extra_newline = false,						-- extra newline at the end - for asesome's wiboxes
 	format_human_readable = true,				-- KiB, MiB rather then number of bytes
-	font = 'Noto Mono:size=11:regular',  			-- font for complete conky unless in code defined
+	font = 'NotoSans Nerd Font Mono:size=9:bold',  			-- font for complete conky unless in code defined
 	max_text_width = 0,							-- 0 will make sure line does not get broken if width too smal
 	max_user_text = 16384,						-- max text in conky default 16384
 	override_utf8_locale = true,				-- force UTF8 requires xft
@@ -92,7 +92,7 @@ conky.config = {
 
 	default_color = '#ff0000',  				-- default color and border color
 	color1 = '#FFFFFF',
-	color2 = '#FFA726',
+	color2 = '#667a92',
 	color3 = '#cccccc',
 	color4 = '#BDBDBD',
 	color5 = '#CCCCCC',
@@ -112,9 +112,9 @@ conky.text = [[
 ${color1}${alignc}S Y S T E M    I N F O${color}
 ${color1}${hr}${color}
 ${color1}Host:${alignr}${color2}${nodename}${color}
-#${color1}Kernel:${color2}${alignr}$kernel${color}
+${color1}Kernel:${color2}${alignr}$kernel${color}
 #${color1}Uptime:${color2}${alignr}${uptime}${color}
-#${color1}UTC:${color2}${alignr}${utime %H:%M}${color}
+${color1} ${color2}${utime %H:%M}${alignr}${uptime}${color}
 
 ${color1}${goto 60}Used${alignr}Size${color}
 ${color1}Root${goto 60}${color2}${fs_used /}${alignr}${fs_size /}${color}
