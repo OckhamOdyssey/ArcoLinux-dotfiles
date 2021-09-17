@@ -9,9 +9,12 @@ Los archivos de configuración de i3 tienen atajos de teclado que solo funcionar
 
  - firefox<sub>*(pacman)*</sub>
  - drun<sub>*(pacman)*</sub>
- - alacritty<sub>(pacman)</sub>
- - dolphin<sub>(pacman)</sub>
- - fish<sub>(pacman)</sub>
- - polybar<sub>(pacman)</sub>
- - spotify<sub>(AUR)</sub>
- - conky<sub>(pacman)</sub>
+ - alacritty<sub>*(pacman)*</sub>
+ - dolphin<sub>*(pacman)*</sub>
+ - fish<sub>*(pacman)*</sub>
+ - polybar<sub>*(pacman)*</sub>
+ - spotify<sub>*(AUR)*</sub>
+ - conky<sub>*(pacman)*</sub>
+ - feh<sub>*(pacman)*</sub>
+ - libmpdclient <sub>*(pacman)*</sub>
+ - ttf-font-awesome <sub>*(pacman)*</sub>
