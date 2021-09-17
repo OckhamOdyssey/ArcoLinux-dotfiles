@@ -461,7 +461,7 @@ exec --no-startup-id conky -c ~/.config/i3/system-overview
 exec --no-startup-id feh --bg-fill ~/Imágenes/wallpapers/ice.jpg &
 
 #Polybar
-#exec_always --no-startup-id ~/.config/polybar/launch.sh &
+exec_always --no-startup-id ~/.config/polybar/launch.sh &
 
 #####################################################################################################################
 #################                                 system applications                               #################
@@ -870,8 +870,8 @@ bar {
     workspace_buttons yes
     font pango:Noto Sans 14
 
-    #position top
-    position bottom
+    position top
+    #position bottom
 
     #system icons
     #tray_output none
