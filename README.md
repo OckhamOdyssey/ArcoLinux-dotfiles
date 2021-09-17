@@ -1,6 +1,7 @@
 > Work in Progress
 
 # Dotfiles
+![Screenshot](screenshot.jpeg)
 Este repositorio contiene los dotfiles de mi sistema ArcoLinux con i3. Utiliza [DotBot](https://github.com/anishathalye/dotbot) para gestionar los archivos. Usando el archivo `./install` se puede instalar automáticamente en los directorios correspondientes. Visita la [wiki de DotBot](https://github.com/ecarlson94/dotbot-template) para más información.
 
 ## Aplicaciones y dependencias
