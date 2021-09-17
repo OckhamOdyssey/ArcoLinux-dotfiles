@@ -19,6 +19,9 @@
     ~/.config/polybar:
         path: config/polybar
         create: true
+    ~/.config/alacritty:
+        path: alacritty
+        create: true
 
 - clean: ['~']
 
