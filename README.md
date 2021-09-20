@@ -18,3 +18,6 @@ Los archivos de configuración de i3 tienen atajos de teclado que solo funcionar
  - feh<sub>*(pacman)*</sub>
  - libmpdclient <sub>*(pacman)*</sub>
  - ttf-font-awesome <sub>*(pacman)*</sub>
+ - redshift <sub>*(pacman)*</sub>
+ - geoclue <sub>*(pacman)*</sub>
+ - gnome-keyring <sub>*(pacman)*</sub>
