@@ -22,6 +22,9 @@
     ~/.config/alacritty:
         path: alacritty
         create: true
+    ~/.config/redshift:
+        path: redshift
+        create: true
 
 - clean: ['~']
 
