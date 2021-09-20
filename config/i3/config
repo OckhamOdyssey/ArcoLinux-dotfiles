@@ -135,7 +135,7 @@ bindsym $mod+Shift+0 move container to workspace 10; workspace 10
 #####################################################################################################################
 
 # start rofi
-bindsym $mod+m exec --no-startup-id rofi -show drun -show-icons -font "Noto Sans 13"
+bindsym $mod+m exec --no-startup-id rofi -show drun -show-icons 
 
 #####################################################################################################################
 #################                          how to exit, logoff, suspend, ...                        #################
