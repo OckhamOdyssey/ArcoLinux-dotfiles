@@ -18,3 +18,4 @@ Los archivos de configuración de i3 tienen atajos de teclado que solo funcionar
  - feh<sub>*(pacman)*</sub>
  - libmpdclient <sub>*(pacman)*</sub>
  - ttf-font-awesome <sub>*(pacman)*</sub>
+ - i3lock-fancy-rapid-git <sub>*(AUR)*</sub>
