@@ -14,8 +14,8 @@ killall -q polybar
 if [ $DEBUG -eq 1 ]
 then
     echo "---" | tee -a /tmp/polybar1.log 
-    polybar bar1 2>&1 | tee -a /tmp/polybar1.log & disown
+    polybar example 2>&1 | tee -a /tmp/polybar1.log & disown
 else
-    polybar bar1 >/dev/null 2>&1 & disown
+    polybar example >/dev/null 2>&1 & disown
 fi
 echo "Barras de estado iniciadas..."
