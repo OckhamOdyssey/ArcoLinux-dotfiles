@@ -21,3 +21,5 @@ Los archivos de configuración de i3 tienen atajos de teclado que solo funcionar
  - redshift <sub>*(pacman)*</sub>
  - geoclue <sub>*(pacman)*</sub>
  - gnome-keyring <sub>*(pacman)*</sub>
+ - zscroll <sub>*(pacman)*</sub>
+ - playerctld <sub>*(pacman)*</sub>
